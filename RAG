@@ -1,0 +1,31 @@
+
+This system follows the **RAG (Retrieval-Augmented Generation)** paradigm commonly used in internal knowledge assistants and enterprise AI tools.
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Backend | Python, FastAPI |
+| Embeddings | OpenAI `text-embedding-3-small` |
+| LLM | GPT-4o-mini / Llama-3 (Groq optional) |
+| Vector DB | FAISS |
+| Frontend | HTML, CSS, JavaScript |
+| Hosting | Render / Railway / HuggingFace Spaces |
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/your-username/ai-google-doc-chatbot.git
+cd ai-google-doc-chatbot
+
+
