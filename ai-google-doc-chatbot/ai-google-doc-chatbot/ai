@@ -1,0 +1,20 @@
+ai-google-doc-chatbot/
+│
+├── backend/
+│   ├── main.py              # FastAPI app
+│   ├── ingest.py            # Google Doc ingestion
+│   ├── embeddings.py        # Chunking & embeddings
+│   ├── retriever.py         # Vector search
+│   ├── llm.py               # Answer generation
+│   ├── memory.py            # Conversation history
+│   └── utils.py
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── requirements.txt
+├── .env.example
+├── README.md
+└── demo.mp4   (to be added before submission)
